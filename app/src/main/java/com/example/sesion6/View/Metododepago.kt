@@ -94,7 +94,7 @@ fun ImagenView(navController:NavHostController) {
 
                     }
                     //boton3
-                    IconButton(onClick = {}) {
+                    IconButton(onClick = {navController.navigate("usuarios")}) {
                         Icon(
                             Icons.Filled.ShoppingCart,
                             contentDescription = "Localized description",

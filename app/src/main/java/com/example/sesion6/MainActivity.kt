@@ -66,6 +66,7 @@ import coil.size.Size
 import com.example.sesion6.View.ImagenView
 import com.example.sesion6.View.imagen2
 import com.example.sesion6.View.pago
+import com.example.sesion6.View.usuarios
 import com.example.sesion6.ui.theme.SESION6Theme
 
 class MainActivity : ComponentActivity() {
@@ -85,6 +86,7 @@ class MainActivity : ComponentActivity() {
                         composable("main") {ImagenView(navController)  }
                       //  composable("metododepago") {imagen2(navController)}
                         composable("pago") { pago(navController)  }
+                        composable ("usuarios"){ usuarios(navController)}
                     }
 
 
